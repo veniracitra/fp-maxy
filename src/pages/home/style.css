@@ -7,8 +7,11 @@
   padding: 130px;
 }
 .bs3 {
-  background-image: url(../../assets/bestseller-3.png);
-  padding: 130px;
+  margin-left: 60px;
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  border-bottom-right-radius: 80px;
 }
 .banner-tagline {
   text-align: center;

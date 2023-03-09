@@ -15,7 +15,7 @@
 .search-login {
   margin-left: 180px;
 }
-.search-login button {
+.search-login a {
   margin-left: 30px;
   background: #eb9797;
   padding: 10px 18px 10px 18px;
@@ -24,4 +24,8 @@
   font-weight: 600;
   font-size: 16px;
   color: #ffffff;
+  text-decoration: none;
+}
+.search-login a:hover {
+  background: black;
 }

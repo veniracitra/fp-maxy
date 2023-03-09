@@ -17,7 +17,7 @@ const ownNav = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="nav-class">
-            <Nav.Link className="nav-link" href="#home">
+            <Nav.Link className="nav-link" href="/">
               Home
             </Nav.Link>
             <NavDropdown
@@ -37,7 +37,9 @@ const ownNav = () => {
             </Nav.Link>
             <Container className="search-login">
               <img src={sIcon} alt="search icon" />
-              <button>Login</button>
+              <a href="/login" role={"button"}>
+                Login
+              </a>
             </Container>
           </Nav>
         </Navbar.Collapse>

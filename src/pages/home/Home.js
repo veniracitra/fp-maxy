@@ -1,6 +1,7 @@
 import React from "react";
 
 import Navbar from "../../components/navbar/ownNav";
+import bs3 from "../../assets/bestseller-3.png";
 import "./style.css";
 const Home = () => {
   return (
@@ -20,7 +21,9 @@ const Home = () => {
               <button>Discover it</button>
             </div>
           </div>
-          <div className="col-lg-6 bs3">bg-3</div>
+          <div className="col-lg-6 ">
+            <img src={bs3} alt="bs - 3" className="bs3" />
+          </div>
         </div>
       </div>
     </div>
