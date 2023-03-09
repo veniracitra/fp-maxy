@@ -1,0 +1,46 @@
+.banner {
+  border-bottom: 1px solid #aaaaaa;
+  padding-bottom: 20px;
+}
+.bs1 {
+  background-image: url(../../assets/bg-line.png);
+  padding: 130px;
+}
+.bs3 {
+  background-image: url(../../assets/bestseller-3.png);
+  padding: 130px;
+}
+.banner-tagline {
+  text-align: center;
+}
+.banner-tagline p {
+  text-align: left;
+  color: white;
+  margin-left: 150px;
+  font-weight: 500;
+  font-size: 40px;
+}
+.banner-tagline h1 {
+  font-weight: 500;
+  font-size: 64px;
+}
+.discover-tagline {
+  text-align: center;
+  margin-top: 100px;
+}
+.discover-tagline p {
+  font-weight: 400;
+  font-size: 20px;
+}
+.discover-tagline button {
+  background: #eb9797;
+  border-radius: 7px;
+  padding: 5px 13px 5px 13px;
+  border: none;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.discover-tagline button:hover {
+  background: #1e1e1e;
+}
