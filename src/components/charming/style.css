@@ -1,0 +1,26 @@
+.charming {
+  margin: 50px 0px 50px 0px;
+}
+.charming h1 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.charming-card h1 {
+  font-weight: 600;
+  font-size: 30px;
+}
+.charming-card p {
+  font-weight: 500;
+  font-size: 18px;
+  width: 450px;
+  margin-left: 80px;
+}
+.col-lg-12 .charming-card p {
+  font-weight: 500;
+  font-size: 18px;
+  width: 450px;
+  text-align: center;
+  margin-left: 400px;
+}
