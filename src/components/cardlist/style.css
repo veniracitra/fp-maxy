@@ -1,0 +1,64 @@
+.cartlist h1 {
+  color: #eb9797;
+  text-align: center;
+  font-weight: 600;
+  font-size: 60px;
+  border-bottom: 1px solid #aaaaaa;
+  padding-bottom: 20px;
+}
+.own-cart-tagline h1 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  border-bottom: none;
+}
+.own-cart-tagline p {
+  text-align: left;
+  margin-left: 10px;
+}
+.own-cart-tagline .rp-promo {
+  color: #000000;
+  font-weight: 500;
+  font-size: 15px;
+  text-decoration: line-through;
+}
+.own-cart-tagline .rp {
+  color: #000000;
+  font-weight: 700;
+  font-size: 19px;
+}
+.own-cart-tagline .terjual {
+  color: #000000;
+  font-weight: 700;
+  font-size: 12px;
+  margin-top: -15px;
+}
+.own-cart-tagline p span {
+  margin-right: 10px;
+  color: #344054;
+  padding: 10px 15px 10px 15px;
+  background: #db7093;
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 15px;
+  border: 1px solid #98a2b3;
+}
+.own-cart-tagline a {
+  background-color: #eb9797;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 9px 70px 9px 70px;
+  border: 1px solid grey;
+}
+.own-cart-tagline a:hover {
+  background-color: #eb9797;
+  color: white;
+}
+
+.row .col-lg-4.col-sm-12 {
+  padding-left: 50px;
+}
+.col-lg-4.col-sm-12 {
+  margin-bottom: 60px;
+}

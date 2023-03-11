@@ -6,8 +6,10 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 import jennyLogo from "../../assets/image 1.png";
 import sIcon from "../../assets/search-icon.png";
+import cart from "../../assets/cart.png";
 import "./style.css";
 const ownNav = () => {
+  const accessToken = sessionStorage.getItem("accessToken");
   return (
     <Navbar bg="transparant" expand="lg" className="mt-3 own-navbar">
       <Container>
@@ -25,9 +27,15 @@ const ownNav = () => {
               title="Product"
               id="basic-nav-dropdown"
             >
-              <NavDropdown.Item href="/">Haircare</NavDropdown.Item>
-              <NavDropdown.Item href="/">Cosmetics</NavDropdown.Item>
-              <NavDropdown.Item href="/">Hair Color</NavDropdown.Item>
+              <NavDropdown.Item href="/products/haircare">
+                Haircare
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/products/cosmetics">
+                Cosmetics
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/products/haircolor">
+                Hair Color
+              </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link className="nav-link" href="/">
               Brand
@@ -37,9 +45,13 @@ const ownNav = () => {
             </Nav.Link>
             <Container className="search-login">
               <img src={sIcon} alt="search icon" />
-              <a href="/login" role={"button"}>
-                Login
-              </a>
+              {!accessToken ? (
+                <a href="/login" role={"button"}>
+                  Login
+                </a>
+              ) : (
+                <img src={cart} alt="search icon" />
+              )}
             </Container>
           </Nav>
         </Navbar.Collapse>

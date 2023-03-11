@@ -15,8 +15,13 @@
 .search-login {
   margin-left: 180px;
 }
+.search-login img {
+  margin-right: 30px;
+  margin-left: -10px;
+  cursor: pointer;
+}
 .search-login a {
-  margin-left: 50px;
+  margin-left: 10px;
   background: #eb9797;
   padding: 10px 18px 10px 18px;
   border-radius: 8px;

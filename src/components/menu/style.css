@@ -1,0 +1,18 @@
+.own-menu {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 80%;
+}
+
+.own-menu .row .col-lg-3 p {
+  font-weight: 400;
+  font-size: 20px;
+  color: #667085;
+  cursor: pointer;
+}
+.own-menu .row .col-lg-3 img {
+  cursor: pointer;
+}
+.own-menu .row .col-lg-3 p:hover {
+  color: #1d2939;
+}

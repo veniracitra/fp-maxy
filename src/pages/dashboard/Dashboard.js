@@ -6,8 +6,7 @@ import Banner from "../../components/banner/Banner";
 import Bestseller from "../../components/bestseller/Best";
 import Charming from "../../components/charming/Charming";
 import Footer from "../../components/footer/Footer";
-
-const Home = () => {
+const Dashboard = () => {
   const navigate = useNavigate();
   const accessToken = sessionStorage.getItem("accessToken");
 
@@ -17,8 +16,8 @@ const Home = () => {
 
   const decoder = () => {
     try {
-      if (accessToken) {
-        navigate("/dashboard");
+      if (!accessToken) {
+        navigate("/404");
       }
     } catch (error) {
       console.log(error);
@@ -37,4 +36,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Dashboard;

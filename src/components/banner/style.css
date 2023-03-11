@@ -4,7 +4,7 @@
 }
 .bs1 {
   background-image: url(../../assets/bg-line.png);
-  padding: 130px;
+  padding: 130px 130px 130px 130px;
 }
 .bs3 {
   margin-left: 60px;
@@ -17,9 +17,8 @@
   text-align: center;
 }
 .banner-tagline p {
-  text-align: left;
   color: white;
-  margin-left: 150px;
+  margin-left: -320px;
   font-weight: 500;
   font-size: 40px;
 }
