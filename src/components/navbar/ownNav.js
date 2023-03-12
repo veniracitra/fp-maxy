@@ -37,7 +37,7 @@ const ownNav = () => {
                 Hair Color
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link className="nav-link" href="/">
+            <Nav.Link className="nav-link" href="/brand">
               Brand
             </Nav.Link>
             <Nav.Link className="nav-link" href="/">

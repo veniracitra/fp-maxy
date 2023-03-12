@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.login-tagline {
+  padding-top: 50px;
+  color: #000000;
+}
+
+.login-tagline h2 {
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+  font-weight: 900;
+  font-size: 36px;
+}
+
+section .row .col-lg-6.login-form-section {
+  padding: 50px 50px 50px 0px;
+}
+
+.form-login {
+  padding-top: 32px;
+}
+
+.img-login {
+  width: 600px;
+}
+
+.btn-Submit button {
+  background-color: #eb9797;
+  padding: 10px 50px 10px 50px;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  margin: 20px 0px 0px 200px;
+}
+.form-login .forget-pass {
+  font-weight: 500;
+  font-size: 18px;
+  color: #eb9797;
+  text-align: right;
+  cursor: pointer;
+}
+.btn-Submit :hover {
+  background-color: #000000;
+}
+.register-tagline {
+  padding-top: 50px;
+  color: #000000;
+}
+
+.register-tagline h2 {
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+  font-weight: 900;
+  font-size: 36px;
+}
+.register-tagline p {
+  color: #000000;
+  font-weight: 500;
+  font-size: 14.4281px;
+}
+.register-tagline p a {
+  color: #eb9797;
+  font-weight: 700;
+  font-size: 14.4281px;
+  text-decoration: none;
+}
+
+.form-register {
+  height: 900;
+  width: 500px;
+}
+
+.img-register {
+  height: 694px;
+  width: 700px;
+
+  margin-left: -20px;
+}
+
+.form-register .btn-submit button {
+  background-color: #eb9797;
+  padding: 10px 50px 10px 50px;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  margin: 20px 0px 0px 150px;
+}
+
+.form-register .btn-submit :hover {
+  background-color: #000000;
+}
+
+.row .col-lg-6.register-form-section {
+  padding: 50px 0px 50px 80px;
+}

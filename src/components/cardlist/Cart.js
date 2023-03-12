@@ -21,7 +21,7 @@ const Cart = (props) => {
                 </p>
                 <p className="rp">Rp {item.price}</p>
                 <p className="terjual">{item.sold} Terjual</p>
-                <a href="/products/haircare" className="btn">
+                <a href="/products/detail" className="btn">
                   Add to cart
                 </a>
               </div>

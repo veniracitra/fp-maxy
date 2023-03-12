@@ -1,0 +1,65 @@
+.detail-product .col-lg-6.kanan {
+  padding: 5px 70px;
+}
+.detail-product-tagline h1 {
+  color: #000000;
+  font-weight: 500;
+  font-size: 36px;
+}
+.detail-product-tagline p {
+  color: #000000;
+  font-weight: 500;
+  font-size: 18.9488px;
+}
+.detail-product-tagline img {
+  margin: 0px 5px 5px 5px;
+  width: 15%;
+  padding: 5px;
+}
+.row .col-lg-2 .discount {
+  background: #db7093;
+  color: white;
+  padding: 2px 5px 2px 13px;
+  border-radius: 10px;
+}
+.row .col-lg-10 .stroke {
+  font-weight: 500;
+  font-size: 21.0877px;
+  text-decoration: line-through;
+}
+.product-desc {
+  margin-left: 15px;
+}
+.product-desc h1 {
+  font-weight: 500;
+  font-size: 24px;
+}
+.product-desc p {
+  font-weight: 400;
+  font-size: 14px;
+}
+.product-desc .row .col-lg-8 button {
+  border: 1px solid #eb9797;
+  padding: 5px 15px 5px 15px;
+  border-radius: 12px;
+  color: #eb9797;
+  background: white;
+  font-weight: 600;
+  font-size: 14px;
+}
+.product-desc .row .col-lg-8 button:hover {
+  background: #eb9797;
+  color: white;
+}
+.product-desc .row .col-lg-4 button {
+  border: 1px solid #eb9797;
+  padding: 7px 15px 7px 17px;
+  border-radius: 12px;
+  color: white;
+  background: #eb9797;
+  font-weight: 600;
+  font-size: 14px;
+}
+.product-desc .row .col-lg-4 button:hover {
+  background: black;
+}
