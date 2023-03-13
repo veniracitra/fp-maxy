@@ -1,11 +1,12 @@
 import React from "react";
-import { Button, Form } from "react-bootstrap";
+import { Button, Container, Form } from "react-bootstrap";
 import fregister from "../../assets/login.png";
 import "./style.css";
 const Register = () => {
   return (
     <>
-      <div className="row">
+    <Container>
+    <div className="row">
         <div className="col-lg-6 register-form-section">
           <div className="register-tagline">
             <h2>Mulai Sekarang</h2>{" "}
@@ -63,6 +64,7 @@ const Register = () => {
           />
         </div>
       </div>
+    </Container>
     </>
   );
 };

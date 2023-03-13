@@ -52,52 +52,49 @@ const Brand = () => {
           </div>
         </Container>
         <div className="Container">
-          <div className="ach-title">
-            <h1>Achievements</h1>
-          </div>
-          <Row>
-            <Col md={3}>
-              <img src={ach1} alt="ach1" className="img-ach" />
+            <div className="ach-title">
+                <h1>Achievements</h1>
+            </div>
+            <Row>
+            <Col>
+                <img src={ach1} alt="ach1" className="img-ach" /> 
             </Col>
-            <Col md={3}>
-              <div className="desc">
-                <h3>THE BEST HAIR & MAKEUP TEAMS IN KOREA</h3>
-                <p>Sports Reporter 80 Jenny House professional artists</p>
-              </div>
+            <Col >
+                <div className="desc">
+                    <h3>THE BEST HAIR & MAKEUP TEAMS IN KOREA</h3>
+                    <p>Sports Reporter 80 Jenny House professional artists</p>
+                </div>
             </Col>
-            <Col md={3}>
-              <img src={ach3} alt="ach3" className="img-ach" />
+            <Col >
+                <img src={ach3} alt="ach3" className="img-ach" />
             </Col>
-            <Col md={3}>
-              <div className="desc">
-                <h3>HAIR & MAKEUP ARTISTS FOR WORLD STARS VISITING KOREA</h3>
-                <p>Miranda Kerr, Tilda Swinton, Lady GaGa, etc</p>
-              </div>
+            <Col >
+                <div className="desc">
+                    <h3>HAIR & MAKEUP ARTISTS FOR WORLD STARS VISITING KOREA</h3>
+                    <p>Miranda Kerr, Tilda Swinton, Lady GaGa, etc</p>
+                </div>
             </Col>
-          </Row>
-          <Row>
-            <Col md={3}>
-              <img src={ach2} alt="ach2" className="img-ach2" />
+        </Row>
+        <Row>
+            <Col>
+                <img src={ach2} alt="ach2" className="img-ach2" /> 
             </Col>
-            <Col md={3}>
-              <div className="ach-desc">
-                <h3>
-                  CURRENTLY IN CHARGE OF DOING HAIR & MAKEUP FOR 600 KOREAN
-                  CELEBRITIES
-                </h3>
-                <p>Kim Tae-ri, Han Ji-min and Bae Suzy, and Wanna One</p>
-              </div>
+            <Col>
+                <div className="desc">
+                    <h3>CURRENTLY IN CHARGE OF DOING HAIR & MAKEUP FOR 600 KOREAN CELEBRITIES</h3>
+                    <p>Kim Tae-ri, Han Ji-min and Bae Suzy, and Wanna One</p>
+                </div>
             </Col>
-            <Col md={3}>
-              <img src={ach4} alt="ach4" className="img-ach2" />
+            <Col >
+                <img src={ach4} alt="ach4" className="img-ach2" />
             </Col>
-            <Col md={3}>
-              <div className="ach-desc">
-                <h3>TRAINING SERVICE FOR TOP BEAUTY BRAND</h3>
-                <p>AMOREPACIFIC, LG Household & Health Care , etc</p>
-              </div>
+            <Col>
+                <div className="desc">
+                    <h3>TRAINING SERVICE FOR TOP BEAUTY BRAND</h3>
+                    <p>AMOREPACIFIC, LG Household & Health Care , etc</p>
+                </div>
             </Col>
-          </Row>
+        </Row>
         </div>
         <div className="Container">
           <div className="quotes">
